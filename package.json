@@ -1,0 +1,19 @@
+{
+  "name": "fridge-master-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-116751/fridge-master-backend.git"
+  },
+  "author": "David Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-116751/fridge-master-backend/issues"
+  },
+  "homepage": "https://github.com/David-116751/fridge-master-backend#readme"
+}

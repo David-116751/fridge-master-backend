@@ -2,8 +2,10 @@
   "name": "fridge-master-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
+    "start": "nodemon src/main.ts",
+    "build": "tsc --project ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/David-116751/fridge-master-backend/issues"
   },
-  "homepage": "https://github.com/David-116751/fridge-master-backend#readme"
+  "homepage": "https://github.com/David-116751/fridge-master-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
 }
